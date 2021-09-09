@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GrillMaster</name>
+    </assembly>
+    <members>
+        <member name="M:GrillMaster.Program.PrintDataInConsole(ApplicationCore.GrillMenuModel)">
+            <summary>
+            It show the data that we need from the menu
+            </summary>
+            <param name="menu">menu with the rounds that we need to create</param>
+        </member>
+        <member name="M:GrillMaster.Program.AppStartup">
+            <summary>
+            
+            </summary>
+            <returns>return <see cref="T:Microsoft.Extensions.Hosting.IHost"/> with all the services loaded</returns>
+        </member>
+    </members>
+</doc>

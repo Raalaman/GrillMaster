@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApplicationCore</name>
+    </assembly>
+    <members>
+        <member name="M:ApplicationCore.GrillMenuItemHelper.GenerateItemsWithoutQuantity(ApplicationCore.GrillMenuItemModelWQuantity)">
+            <summary>
+            It generates <see cref="P:ApplicationCore.GrillMenuItemModelWQuantity.Quantity"/>  elements of <see cref="T:ApplicationCore.GrillMenuItemModel"/> with the same height and width 
+            </summary>
+            <param name="menuItemModelWQuantity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApplicationCore.HttpClientHelper.AddHttpBaseClientConfig(System.Net.Http.HttpClient,System.String)">
+            <summary>
+            Configures basic data for the HttpClient
+            </summary>
+            <param name="client">entity that is going to be configured</param>
+            <param name="baseUrl">baseURL that all the clients will have </param>
+        </member>
+        <member name="P:ApplicationCore.GrillRoundModel.CurrentMaxHeightAllStrips">
+            <summary>
+            The max Height of the items grilled, it is the sum of the height of the first item in each strip
+            </summary>
+        </member>
+        <member name="P:ApplicationCore.GrillRoundStripModel.Height">
+            <summary>
+            Height of the current strip, it's always the height of the first grilled item, max size is <see cref="F:ApplicationCore.GrillModel.HEIGHT"/>
+            </summary>
+        </member>
+        <member name="P:ApplicationCore.GrillRoundStripModel.Width">
+            <summary>
+            Current Width of the strip, max size is <see cref="F:ApplicationCore.GrillModel.WIDTH"/>
+            </summary>
+        </member>
+        <member name="M:ApplicationCore.RoundGeneratorService.GenerateRounds(ApplicationCore.GrillMenuModel)">
+            <summary>
+            For each Menu we have x items <br/>
+            Each item has a width and a height <br/>
+            First, we will order all the items by height, then we will place the first item starting from the bottom left in the grill; this item will be the highest one in the menu. <br/>
+            Then we will keep putting items into the grill in a decreasing height order from left to right until the Grill width is filled or is unable to fit the current item. <br/>
+            In that case, we will create another strip in the same Round putting first the highest item of what is left that fits. <br/>
+            If no more items fit, then we will create another Round and repeat this process until there is no more items left <br/>
+            </summary>
+            <param name="menu">menu we will generate the rounds</param>
+            <returns>list of <see cref="T:ApplicationCore.GrillRoundModel"/>  that this menu has generated</returns>
+        </member>
+        <member name="M:ApplicationCore.RoundGeneratorService.SaveCurrentStripAndCurrentOrder(System.Collections.Generic.List{ApplicationCore.GrillRoundModel},ApplicationCore.GrillRoundModel@,ApplicationCore.GrillRoundStripModel@)">
+            <summary>
+            It saves the current strip in the current round and generates another round and strip
+            </summary>
+            <param name="result"></param>
+            <param name="currenRound"></param>
+            <param name="currenRoundStrip"></param>
+        </member>
+        <member name="M:ApplicationCore.RoundGeneratorService.GetItemIndexThatFitsInHeight(System.Collections.Generic.List{ApplicationCore.GrillMenuItemModel},System.Int32)">
+            <summary>
+            It checks if there is an item in the Menu that fits height wise in the Grill
+            </summary>
+            <param name="grillMenuItemsOrderedList">the list with all the items</param>
+            <param name="heightNeedsToFit">height that the item needs to fit</param>
+            <returns>returns the index of the item in the list or null in case there are no items with that height</returns>
+        </member>
+    </members>
+</doc>

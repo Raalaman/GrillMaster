@@ -1,0 +1,972 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.3714" branch-rate="0.1041" version="1.9" timestamp="1626164568" lines-covered="78" lines-valid="210" branches-covered="5" branches-valid="48">
+  <sources>
+    <source>C:\Users\RafaelAlamanac\</source>
+  </sources>
+  <packages>
+    <package name="ApplicationCore" line-rate="0.08130000000000001" branch-rate="0.023799999999999998" complexity="61">
+      <classes>
+        <class name="ApplicationCore.CustomJsonSerializer" filename="Desktop\GrillMaster\ApplicationCore\Extensions\CustomJsonSerializer.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="GetCustomJsonSerializerOptions" signature="(System.Text.Json.JsonSerializerOptions)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="14" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="14" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.CustomJsonSerializer/&lt;DeserializeHttpContent&gt;d__1`1" filename="Desktop\GrillMaster\ApplicationCore\Extensions\CustomJsonSerializer.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.IEnumerableExtensions" filename="Desktop\GrillMaster\ApplicationCore\Extensions\IEnumerableExtensions.cs" line-rate="1" branch-rate="0.5" complexity="2">
+          <methods>
+            <method name="IsNullOrEmpty" signature="(System.Collections.Generic.IEnumerable`1&lt;T&gt;)" line-rate="1" branch-rate="0.5" complexity="2">
+              <lines>
+                <line number="9" hits="2" branch="False" />
+                <line number="10" hits="2" branch="True" condition-coverage="50% (1/2)">
+                  <conditions>
+                    <condition number="2" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="11" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="2" branch="False" />
+            <line number="10" hits="2" branch="True" condition-coverage="50% (1/2)">
+              <conditions>
+                <condition number="2" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="11" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.GrillSettings" filename="Desktop\GrillMaster\ApplicationCore\GrillSettings.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_BaseURL" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IsDev" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.GrillMenuItemHelper" filename="Desktop\GrillMaster\ApplicationCore\Helper\GrillMenuItemHelper.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="GenerateItemsWithoutQuantity" signature="(ApplicationCore.GrillMenuItemModelWQuantity)" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="True" condition-coverage="0% (0/6)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="0%" />
+                    <condition number="17" type="jump" coverage="0%" />
+                    <condition number="37" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="20" hits="0" branch="False" />
+                <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="104" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="True" condition-coverage="0% (0/6)">
+              <conditions>
+                <condition number="8" type="jump" coverage="0%" />
+                <condition number="17" type="jump" coverage="0%" />
+                <condition number="37" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="20" hits="0" branch="False" />
+            <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="104" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.HttpClientHelper" filename="Desktop\GrillMaster\ApplicationCore\Helper\HttpClientHelper.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="AddHttpBaseClientConfig" signature="(System.Net.Http.HttpClient,System.String)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.GrillMenuItemModel" filename="Desktop\GrillMaster\ApplicationCore\Model\GrillMenuItemModel.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Height" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Width" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="False" />
+            <line number="6" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.GrillMenuItemModelWQuantity" filename="Desktop\GrillMaster\ApplicationCore\Model\GrillMenuItemModelWQuantity.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_Quantity" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="5" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="5" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.GrillMenuModel" filename="Desktop\GrillMaster\ApplicationCore\Model\GrillMenuModel.cs" line-rate="0.875" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Menu" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Items" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Rounds" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="7" hits="3" branch="False" />
+                <line number="8" hits="3" branch="False" />
+                <line number="9" hits="3" branch="False" />
+                <line number="10" hits="3" branch="False" />
+                <line number="11" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="3" branch="False" />
+            <line number="14" hits="3" branch="False" />
+            <line number="7" hits="3" branch="False" />
+            <line number="8" hits="3" branch="False" />
+            <line number="9" hits="3" branch="False" />
+            <line number="10" hits="3" branch="False" />
+            <line number="11" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.GrillRoundModel" filename="Desktop\GrillMaster\ApplicationCore\Model\GrillRoundModel.cs" line-rate="0" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_Number" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_GrillRoundStrips" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_CurrentMaxHeightAllStrips" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.GrillRoundStripModel" filename="Desktop\GrillMaster\ApplicationCore\Model\GrillRoundStripModel.cs" line-rate="0" branch-rate="0" complexity="5">
+          <methods>
+            <method name="get_GrillMenuItems" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Height" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="19" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+              </lines>
+            </method>
+            <method name="get_Width" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="False" />
+                <line number="12" hits="0" branch="False" />
+                <line number="13" hits="0" branch="False" />
+                <line number="14" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="15" hits="0" branch="False" />
+            <line number="19" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="23" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+            <line number="12" hits="0" branch="False" />
+            <line number="13" hits="0" branch="False" />
+            <line number="14" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.RoundGeneratorService" filename="Desktop\GrillMaster\ApplicationCore\Services\RoundGeneratorService.cs" line-rate="0" branch-rate="0" complexity="8">
+          <methods>
+            <method name="SaveCurrentStripAndCurrentOrder" signature="(System.Collections.Generic.List`1&lt;ApplicationCore.GrillRoundModel&gt;,ApplicationCore.GrillRoundModel&amp;,ApplicationCore.GrillRoundStripModel&amp;)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="100" hits="0" branch="False" />
+                <line number="101" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="18" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="102" hits="0" branch="False" />
+                <line number="103" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="52" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="104" hits="0" branch="False" />
+                <line number="106" hits="0" branch="False" />
+                <line number="107" hits="0" branch="False" />
+                <line number="108" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="GetItemIndexThatFitsInHeight" signature="(System.Collections.Generic.List`1&lt;ApplicationCore.GrillMenuItemModel&gt;,System.Int32)" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="117" hits="0" branch="False" />
+                <line number="118" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="53" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="119" hits="0" branch="False" />
+                <line number="120" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="26" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="121" hits="0" branch="False" />
+                <line number="122" hits="0" branch="False" />
+                <line number="123" hits="0" branch="False" />
+                <line number="124" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="100" hits="0" branch="False" />
+            <line number="101" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="18" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="102" hits="0" branch="False" />
+            <line number="103" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="52" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="104" hits="0" branch="False" />
+            <line number="106" hits="0" branch="False" />
+            <line number="107" hits="0" branch="False" />
+            <line number="108" hits="0" branch="False" />
+            <line number="117" hits="0" branch="False" />
+            <line number="118" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="53" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="119" hits="0" branch="False" />
+            <line number="120" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="26" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="121" hits="0" branch="False" />
+            <line number="122" hits="0" branch="False" />
+            <line number="123" hits="0" branch="False" />
+            <line number="124" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.RoundGeneratorService/&lt;GenerateRounds&gt;d__0" filename="Desktop\GrillMaster\ApplicationCore\Services\RoundGeneratorService.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="26" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="26" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="26" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="26" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.RoundGeneratorService/&lt;&gt;c" filename="Desktop\GrillMaster\ApplicationCore\Services\RoundGeneratorService.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;GenerateRoundsMenu&gt;b__1_0" signature="(ApplicationCore.GrillMenuItemModel)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="38" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="38" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="ApplicationCore.RoundGeneratorService/&lt;GenerateRoundsMenu&gt;d__1" filename="Desktop\GrillMaster\ApplicationCore\Services\RoundGeneratorService.cs" line-rate="0" branch-rate="0" complexity="18">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="18">
+              <lines>
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="115" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+                <line number="40" hits="0" branch="False" />
+                <line number="41" hits="0" branch="False" />
+                <line number="45" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="705" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="46" hits="0" branch="False" />
+                <line number="47" hits="0" branch="False" />
+                <line number="49" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="278" type="jump" coverage="0%" />
+                    <condition number="300" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="50" hits="0" branch="False" />
+                <line number="51" hits="0" branch="False" />
+                <line number="52" hits="0" branch="False" />
+                <line number="57" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="355" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="58" hits="0" branch="False" />
+                <line number="59" hits="0" branch="False" />
+                <line number="60" hits="0" branch="False" />
+                <line number="61" hits="0" branch="False" />
+                <line number="64" hits="0" branch="False" />
+                <line number="65" hits="0" branch="False" />
+                <line number="66" hits="0" branch="False" />
+                <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="495" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="70" hits="0" branch="False" />
+                <line number="71" hits="0" branch="False" />
+                <line number="72" hits="0" branch="False" />
+                <line number="74" hits="0" branch="False" />
+                <line number="75" hits="0" branch="False" />
+                <line number="78" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="582" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="79" hits="0" branch="False" />
+                <line number="80" hits="0" branch="False" />
+                <line number="81" hits="0" branch="False" />
+                <line number="85" hits="0" branch="True" condition-coverage="0% (0/4)">
+                  <conditions>
+                    <condition number="629" type="jump" coverage="0%" />
+                    <condition number="652" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="86" hits="0" branch="False" />
+                <line number="88" hits="0" branch="False" />
+                <line number="89" hits="0" branch="False" />
+                <line number="90" hits="0" branch="False" />
+                <line number="91" hits="0" branch="False" />
+                <line number="92" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="115" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+            <line number="40" hits="0" branch="False" />
+            <line number="41" hits="0" branch="False" />
+            <line number="45" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="705" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="46" hits="0" branch="False" />
+            <line number="47" hits="0" branch="False" />
+            <line number="49" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="278" type="jump" coverage="0%" />
+                <condition number="300" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="50" hits="0" branch="False" />
+            <line number="51" hits="0" branch="False" />
+            <line number="52" hits="0" branch="False" />
+            <line number="57" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="355" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="58" hits="0" branch="False" />
+            <line number="59" hits="0" branch="False" />
+            <line number="60" hits="0" branch="False" />
+            <line number="61" hits="0" branch="False" />
+            <line number="64" hits="0" branch="False" />
+            <line number="65" hits="0" branch="False" />
+            <line number="66" hits="0" branch="False" />
+            <line number="69" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="495" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="70" hits="0" branch="False" />
+            <line number="71" hits="0" branch="False" />
+            <line number="72" hits="0" branch="False" />
+            <line number="74" hits="0" branch="False" />
+            <line number="75" hits="0" branch="False" />
+            <line number="78" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="582" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="79" hits="0" branch="False" />
+            <line number="80" hits="0" branch="False" />
+            <line number="81" hits="0" branch="False" />
+            <line number="85" hits="0" branch="True" condition-coverage="0% (0/4)">
+              <conditions>
+                <condition number="629" type="jump" coverage="0%" />
+                <condition number="652" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="86" hits="0" branch="False" />
+            <line number="88" hits="0" branch="False" />
+            <line number="89" hits="0" branch="False" />
+            <line number="90" hits="0" branch="False" />
+            <line number="91" hits="0" branch="False" />
+            <line number="92" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="Infrastructure" line-rate="0.7095999999999999" branch-rate="0.6666" complexity="20">
+      <classes>
+        <class name="Infrastructure.BaseGrillMenuObject" filename="Desktop\GrillMaster\Infrastructure\Entities\BaseGrillMenuObject.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="176" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Guid" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="176" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="176" branch="False" />
+            <line number="15" hits="176" branch="False" />
+          </lines>
+        </class>
+        <class name="Infrastructure.GrillMenu" filename="Desktop\GrillMaster\Infrastructure\Entities\GrillMenu.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Menu" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="19" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Items" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="177" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="19" branch="False" />
+                <line number="13" hits="19" branch="False" />
+                <line number="14" hits="19" branch="False" />
+                <line number="15" hits="19" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="19" branch="False" />
+            <line number="19" hits="177" branch="False" />
+            <line number="12" hits="19" branch="False" />
+            <line number="13" hits="19" branch="False" />
+            <line number="14" hits="19" branch="False" />
+            <line number="15" hits="19" branch="False" />
+          </lines>
+        </class>
+        <class name="Infrastructure.GrillMenuItem" filename="Desktop\GrillMaster\Infrastructure\Entities\GrillMenuItem.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="157" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Length" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="157" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Width" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="157" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Duration" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="157" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Quantity" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="157" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="157" branch="False" />
+            <line number="15" hits="157" branch="False" />
+            <line number="17" hits="157" branch="False" />
+            <line number="19" hits="157" branch="False" />
+            <line number="21" hits="157" branch="False" />
+          </lines>
+        </class>
+        <class name="Infrastructure.GrillMenuMockHelper" filename="Desktop\GrillMaster\Infrastructure\Helper\GrillMenuMockHelper.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="MockMenus" signature="()" line-rate="1" branch-rate="1" complexity="4">
+              <lines>
+                <line number="12" hits="3" branch="False" />
+                <line number="15" hits="3" branch="False" />
+                <line number="16" hits="3" branch="False" />
+                <line number="18" hits="3" branch="False" />
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="44" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="307" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="21" hits="19" branch="False" />
+                <line number="22" hits="19" branch="False" />
+                <line number="23" hits="19" branch="False" />
+                <line number="24" hits="19" branch="False" />
+                <line number="25" hits="19" branch="False" />
+                <line number="26" hits="19" branch="False" />
+                <line number="27" hits="19" branch="False" />
+                <line number="30" hits="352" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="277" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="31" hits="157" branch="False" />
+                <line number="32" hits="157" branch="False" />
+                <line number="33" hits="157" branch="False" />
+                <line number="34" hits="157" branch="False" />
+                <line number="35" hits="157" branch="False" />
+                <line number="36" hits="157" branch="False" />
+                <line number="37" hits="157" branch="False" />
+                <line number="38" hits="157" branch="False" />
+                <line number="39" hits="157" branch="False" />
+                <line number="40" hits="157" branch="False" />
+                <line number="41" hits="157" branch="False" />
+                <line number="42" hits="157" branch="False" />
+                <line number="43" hits="157" branch="False" />
+                <line number="44" hits="19" branch="False" />
+                <line number="45" hits="19" branch="False" />
+                <line number="46" hits="3" branch="False" />
+                <line number="47" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="3" branch="False" />
+            <line number="15" hits="3" branch="False" />
+            <line number="16" hits="3" branch="False" />
+            <line number="18" hits="3" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="44" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="307" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="21" hits="19" branch="False" />
+            <line number="22" hits="19" branch="False" />
+            <line number="23" hits="19" branch="False" />
+            <line number="24" hits="19" branch="False" />
+            <line number="25" hits="19" branch="False" />
+            <line number="26" hits="19" branch="False" />
+            <line number="27" hits="19" branch="False" />
+            <line number="30" hits="352" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="277" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="31" hits="157" branch="False" />
+            <line number="32" hits="157" branch="False" />
+            <line number="33" hits="157" branch="False" />
+            <line number="34" hits="157" branch="False" />
+            <line number="35" hits="157" branch="False" />
+            <line number="36" hits="157" branch="False" />
+            <line number="37" hits="157" branch="False" />
+            <line number="38" hits="157" branch="False" />
+            <line number="39" hits="157" branch="False" />
+            <line number="40" hits="157" branch="False" />
+            <line number="41" hits="157" branch="False" />
+            <line number="42" hits="157" branch="False" />
+            <line number="43" hits="157" branch="False" />
+            <line number="44" hits="19" branch="False" />
+            <line number="45" hits="19" branch="False" />
+            <line number="46" hits="3" branch="False" />
+            <line number="47" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="Infrastructure.BaseApiService`1" filename="Desktop\GrillMaster\Infrastructure\Services\BaseApiService.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.Net.Http.IHttpClientFactory)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="19" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="19" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Infrastructure.BaseApiService`1/&lt;GetAllAsync&gt;d__4" filename="Desktop\GrillMaster\Infrastructure\Services\BaseApiService.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="22" hits="0" branch="False" />
+                <line number="23" hits="0" branch="False" />
+                <line number="24" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="22" hits="0" branch="False" />
+            <line number="23" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Infrastructure.BaseApiService`1/&lt;GetAllEntitiesAsync&gt;d__5`1" filename="Desktop\GrillMaster\Infrastructure\Services\BaseApiService.cs" line-rate="0" branch-rate="0" complexity="2">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="27" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="31" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="199" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="36" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="27" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="31" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="199" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="36" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="Infrastructure.GrillMenuRequestService" filename="Desktop\GrillMaster\Infrastructure\Services\GrillMenuRequestService.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_RouteName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Net.Http.IHttpClientFactory)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="False" />
+                <line number="11" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="8" hits="0" branch="False" />
+            <line number="10" hits="0" branch="False" />
+            <line number="11" hits="0" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="UnitTests" line-rate="0.96" branch-rate="1" complexity="6">
+      <classes>
+        <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.GrillMasterUnitTests" filename="Desktop\GrillMaster\UnitTests\GrillMasterUnitTests.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods>
+            <method name="MapDataFromMockedMenus" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
+                <line number="52" hits="1" branch="False" />
+                <line number="54" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="3" branch="False" />
+                <line number="22" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="25" hits="3" branch="False" />
+                <line number="28" hits="3" branch="False" />
+                <line number="29" hits="3" branch="False" />
+                <line number="32" hits="3" branch="False" />
+                <line number="34" hits="3" branch="False" />
+                <line number="35" hits="3" branch="False" />
+                <line number="36" hits="3" branch="False" />
+                <line number="38" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="50" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
+            <line number="52" hits="1" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="22" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="25" hits="3" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="29" hits="3" branch="False" />
+            <line number="32" hits="3" branch="False" />
+            <line number="34" hits="3" branch="False" />
+            <line number="35" hits="3" branch="False" />
+            <line number="36" hits="3" branch="False" />
+            <line number="38" hits="3" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.GrillMasterUnitTests/&lt;&gt;c" filename="Desktop\GrillMaster\UnitTests\GrillMasterUnitTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="&lt;RequestDataFromMenuRequestService&gt;b__5_0" signature="(Infrastructure.GrillMenu)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="45" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="45" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.GrillMasterUnitTests/&lt;RequestDataFromMenuRequestService&gt;d__5" filename="Desktop\GrillMaster\UnitTests\GrillMasterUnitTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="1" branch="False" />
+                <line number="43" hits="1" branch="False" />
+                <line number="44" hits="1" branch="False" />
+                <line number="46" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="42" hits="1" branch="False" />
+            <line number="43" hits="1" branch="False" />
+            <line number="44" hits="1" branch="False" />
+            <line number="46" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.GrillMasterUnitTests/&lt;GenerateDataFromRoundGeneratorService&gt;d__7" filename="Desktop\GrillMaster\UnitTests\GrillMasterUnitTests.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="MoveNext" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="1" branch="False" />
+                <line number="58" hits="1" branch="False" />
+                <line number="59" hits="1" branch="False" />
+                <line number="60" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="57" hits="1" branch="False" />
+            <line number="58" hits="1" branch="False" />
+            <line number="59" hits="1" branch="False" />
+            <line number="60" hits="1" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

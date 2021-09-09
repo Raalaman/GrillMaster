@@ -1,0 +1,40 @@
+stages:
+- stage: validate_pr
+  displayName: 'Check Branch'
+  dependsOn: []
+  jobs:
+  - job: validate
+    displayName: check target branch
+    condition: eq(variables['Build.Reason'], 'PullRequest')
+    steps:
+    - task: PowerShell@2
+      inputs:
+        targetType: 'inline'
+        script: |
+          $source = "$env:SYSTEM_PULLREQUEST_SOURCEBRANCH"
+          $target = "$env:SYSTEM_PULLREQUEST_TARGETBRANCH"
+
+          if (($target -eq "refs/heads/master") -or ($target -eq "refs/heads/main")) {
+
+            Write-Output "Pull request target master or main"
+
+            if ($source -eq "refs/heads/develop") { Exit 0 }
+            if ($source.contains("refs/heads/hotfix/")) { Exit 0 }
+            if ($source.contains("refs/heads/release/")) { Exit 0 }
+
+            Write-Host "##vso[task.LogIssue type=error;]Source Branch should be develop, a hotfix or a release"
+            Exit -1
+          }
+
+          if ($target -eq "refs/heads/develop") {
+
+            Write-Output "Pull request target develop"
+
+            if ($source.contains("refs/heads/feature/")) { Exit 0 }
+            if ($source.contains("refs/heads/bugfix/")) { Exit 0 }
+            if ($source.contains("refs/heads/hotfix/")) { Exit 0 }
+            if ($source.contains("refs/heads/release/")) { Exit 0 }
+
+            Write-Host "##vso[task.LogIssue type=error;]Source Branch should be feature, a bugfix, hotfix or a release"
+            Exit -1
+          }

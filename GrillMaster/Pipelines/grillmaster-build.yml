@@ -1,0 +1,27 @@
+stages:
+- stage: build
+  displayName: Build
+  dependsOn:
+  - validate_pr
+  condition: and ( ne(variables['Build.Reason'], 'PullRequest'), in(dependencies.validate_pr.result, 'Succeeded', 'Skipped') )
+  jobs:
+  - job: Publish
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:  
+        - task: DotNetCoreCLI@2
+          displayName: 'dotnet restore'
+          inputs:
+            command: restore
+            projects: '**/*.csproj'
+
+        - task: DotNetCoreCLI@2
+          displayName: 'dotnet publish'
+          inputs:
+            command: publish
+            publishWebProjects: false
+            projects: '**/*.csproj'
+            arguments: '--output $(Build.ArtifactStagingDirectory) --configuration $(configuration)'
+            
+        - task: PublishBuildArtifacts@1
+          displayName: 'publish artifact'

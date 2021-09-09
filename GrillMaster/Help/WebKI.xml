@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AddHttpBaseClientConfig method" Url="html/65254a7c-b97b-9580-5dba-02eae4451272.htm" />
+  <HelpKINode Title="ApplicationCore namespace" Url="html/dbd99cc3-9955-8af7-504a-a9ebfa9ca1a5.htm" />
+  <HelpKINode Title="ApplicationCore.Client class" Url="html/8345068a-9615-751e-5d63-823f54b7f2bd.htm" />
+  <HelpKINode Title="ApplicationCore.CustomJsonSerializer class" Url="html/8b69190e-fdb5-dad3-78dd-3f0e2be20040.htm" />
+  <HelpKINode Title="ApplicationCore.GrillMenuItemHelper class" Url="html/83be05c5-7445-ac4f-752e-afee9d5a5cc7.htm" />
+  <HelpKINode Title="ApplicationCore.GrillMenuItemModel class" Url="html/77e038c4-4461-2934-835f-e75286010903.htm" />
+  <HelpKINode Title="ApplicationCore.GrillMenuItemModelWQuantity class" Url="html/55ef9e71-2d40-3efe-0e93-0b16256d236a.htm" />
+  <HelpKINode Title="ApplicationCore.GrillMenuModel class" Url="html/e6bb2687-0ee6-5e89-baf5-50e60d1948c8.htm" />
+  <HelpKINode Title="ApplicationCore.GrillModel class" Url="html/ea0280e2-2c86-11e1-190c-cbf56eed94db.htm" />
+  <HelpKINode Title="ApplicationCore.GrillRoundModel class" Url="html/94dd2ab8-4571-83c4-5134-21059ea059b2.htm" />
+  <HelpKINode Title="ApplicationCore.GrillRoundStripModel class" Url="html/fa2ae17f-e114-7597-93da-90cf920bf425.htm" />
+  <HelpKINode Title="ApplicationCore.GrillSettings class" Url="html/84efec50-77c0-65fe-9c8b-406a373e1923.htm" />
+  <HelpKINode Title="ApplicationCore.HttpClientHelper class" Url="html/43c27eb9-da11-385d-539b-516e05c04a12.htm" />
+  <HelpKINode Title="ApplicationCore.IAsyncOnlyGetRepository(Of T) interface" Url="html/493be12b-6aaa-1a9a-afff-9a53af494fad.htm" />
+  <HelpKINode Title="ApplicationCore.IAsyncOnlyGetRepository&lt;T&gt; interface" Url="html/493be12b-6aaa-1a9a-afff-9a53af494fad.htm" />
+  <HelpKINode Title="ApplicationCore.IAsyncRoundGenerator(Of T, U) interface" Url="html/39948c94-0302-a841-9557-39fe45b94248.htm" />
+  <HelpKINode Title="ApplicationCore.IAsyncRoundGenerator&lt;T, U&gt; interface" Url="html/39948c94-0302-a841-9557-39fe45b94248.htm" />
+  <HelpKINode Title="ApplicationCore.IEnumerableExtensions class" Url="html/587aa8f6-cebd-07b0-d2c6-13c4e98a1256.htm" />
+  <HelpKINode Title="ApplicationCore.RoundGeneratorService class" Url="html/4b4e3e54-e708-afd1-37f8-f6fea25b5397.htm" />
+  <HelpKINode Title="BaseApiService(Of T) class">
+    <HelpKINode Title="BaseApiService(T) Class" Url="html/80db2fb8-591d-4919-4063-d0976a0b060a.htm" />
+    <HelpKINode Title="constructor" Url="html/12eac33f-4fe8-5dcf-6bd7-e99b9a267ebf.htm" />
+    <HelpKINode Title="methods" Url="html/e94fc0b0-de2c-bf99-e5cb-6254174df834.htm" />
+    <HelpKINode Title="properties" Url="html/2df26828-6b50-34d3-5f38-0a3258672aab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseApiService(Of T).BaseApiService constructor" Url="html/12eac33f-4fe8-5dcf-6bd7-e99b9a267ebf.htm" />
+  <HelpKINode Title="BaseApiService(Of T).GetAllAsync method" Url="html/e09589c7-7650-572f-9cdf-91c442ee8375.htm" />
+  <HelpKINode Title="BaseApiService(Of T).RouteName property" Url="html/462f6ca8-9f2c-64e3-8364-de2f6ebce626.htm" />
+  <HelpKINode Title="BaseApiService&lt;T&gt; class">
+    <HelpKINode Title="BaseApiService(T) Class" Url="html/80db2fb8-591d-4919-4063-d0976a0b060a.htm" />
+    <HelpKINode Title="constructor" Url="html/12eac33f-4fe8-5dcf-6bd7-e99b9a267ebf.htm" />
+    <HelpKINode Title="methods" Url="html/e94fc0b0-de2c-bf99-e5cb-6254174df834.htm" />
+    <HelpKINode Title="properties" Url="html/2df26828-6b50-34d3-5f38-0a3258672aab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseApiService&lt;T&gt;.BaseApiService constructor" Url="html/12eac33f-4fe8-5dcf-6bd7-e99b9a267ebf.htm" />
+  <HelpKINode Title="BaseApiService&lt;T&gt;.GetAllAsync method" Url="html/e09589c7-7650-572f-9cdf-91c442ee8375.htm" />
+  <HelpKINode Title="BaseApiService&lt;T&gt;.RouteName property" Url="html/462f6ca8-9f2c-64e3-8364-de2f6ebce626.htm" />
+  <HelpKINode Title="BaseGrillMenuObject class">
+    <HelpKINode Title="BaseGrillMenuObject Class" Url="html/fdbd3c36-64b3-e96c-5cd6-1ae0c08d5ab8.htm" />
+    <HelpKINode Title="constructor" Url="html/fb6f1795-7eb5-131e-f937-d125f7f0a9eb.htm" />
+    <HelpKINode Title="methods" Url="html/9679229c-cb8e-8b40-e215-8e7d42fe6bc9.htm" />
+    <HelpKINode Title="properties" Url="html/3f2fed37-1132-599d-e21b-cefdcdc668f4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseGrillMenuObject.BaseGrillMenuObject constructor" Url="html/fb6f1795-7eb5-131e-f937-d125f7f0a9eb.htm" />
+  <HelpKINode Title="BaseGrillMenuObject.Guid property" Url="html/cb3db431-3bd6-c8e6-7258-05bb4b4b08af.htm" />
+  <HelpKINode Title="BaseGrillMenuObject.Id property" Url="html/da0eee15-cc53-172d-a1d6-07c8d6e5516f.htm" />
+  <HelpKINode Title="BaseURL property" Url="html/ed990071-4574-4949-44f4-6adf6d4a39ed.htm" />
+  <HelpKINode Title="Client class">
+    <HelpKINode Title="Client Class" Url="html/8345068a-9615-751e-5d63-823f54b7f2bd.htm" />
+    <HelpKINode Title="fields" Url="html/285dfe07-14ab-3ec3-6a69-9523f9c4fbde.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Client.DEFAULT field" Url="html/d86514fc-4a5a-8464-42c7-45a03b22144d.htm" />
+  <HelpKINode Title="CurrentMaxHeightAllStrips property" Url="html/93f8dfeb-34f1-10ef-2db8-bbe4ee6c9176.htm" />
+  <HelpKINode Title="CustomJsonSerializer class">
+    <HelpKINode Title="CustomJsonSerializer Class" Url="html/8b69190e-fdb5-dad3-78dd-3f0e2be20040.htm" />
+    <HelpKINode Title="methods" Url="html/703b4f56-e87c-f029-ad8f-86431e1ce8d8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CustomJsonSerializer.DeserializeHttpContent(Of T) method" Url="html/24396520-b10c-9453-7b0b-c8efa6805552.htm" />
+  <HelpKINode Title="CustomJsonSerializer.DeserializeHttpContent&lt;T&gt; method" Url="html/24396520-b10c-9453-7b0b-c8efa6805552.htm" />
+  <HelpKINode Title="DEFAULT field" Url="html/d86514fc-4a5a-8464-42c7-45a03b22144d.htm" />
+  <HelpKINode Title="DeserializeHttpContent(Of T) method" Url="html/24396520-b10c-9453-7b0b-c8efa6805552.htm" />
+  <HelpKINode Title="DeserializeHttpContent&lt;T&gt; method" Url="html/24396520-b10c-9453-7b0b-c8efa6805552.htm" />
+  <HelpKINode Title="Duration property" Url="html/585ff302-4506-bdc4-231c-0ad323d44a7c.htm" />
+  <HelpKINode Title="FunctionalTests namespace" Url="html/ca5651b0-e7db-16e9-9cd0-9960023ff2f1.htm" />
+  <HelpKINode Title="FunctionalTests.GrillMasterFunctionalTests class" Url="html/877a3389-7937-dff7-a174-23993320f666.htm" />
+  <HelpKINode Title="GenerateDataFromRoundGeneratorService method">
+    <HelpKINode Title="GrillMasterFunctionalTests.GenerateDataFromRoundGeneratorService Method " Url="html/740d34f7-2baf-b1fb-1d34-84a5dd6262e7.htm" />
+    <HelpKINode Title="GrillMasterUnitTests.GenerateDataFromRoundGeneratorService Method " Url="html/be6cd043-2552-362e-e215-2aea28cf3d09.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenerateDataFromRoundGeneratorServiceWLimitValues method" Url="html/163984ca-fff1-d5f2-82be-4308fa95ef2a.htm" />
+  <HelpKINode Title="GenerateDataFromRoundGeneratorServiceWRandomData method" Url="html/669a1420-d0e4-2a8a-0366-6ef632a07ea2.htm" />
+  <HelpKINode Title="GenerateItemsWithoutQuantity method" Url="html/751e3a6a-2e34-63ad-402d-08fde4cd03cc.htm" />
+  <HelpKINode Title="GenerateRounds method">
+    <HelpKINode Title="IAsyncRoundGenerator(T, U).GenerateRounds Method " Url="html/28b57c32-5653-f185-b3f4-d74efd28a150.htm" />
+    <HelpKINode Title="RoundGeneratorService.GenerateRounds Method " Url="html/9c56ccef-9575-efef-08c6-c4fbaa419be1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetAllAsync method">
+    <HelpKINode Title="BaseApiService(T).GetAllAsync Method " Url="html/e09589c7-7650-572f-9cdf-91c442ee8375.htm" />
+    <HelpKINode Title="IAsyncOnlyGetRepository(T).GetAllAsync Method " Url="html/78260f49-38c5-28c4-60a6-bbfa8492b5e7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillMaster namespace" Url="html/56144799-5f5f-3ab0-d44d-eb2fde651276.htm" />
+  <HelpKINode Title="GrillMaster.GrillProfile class" Url="html/5f2420c8-d27a-7463-1353-7186fe565777.htm" />
+  <HelpKINode Title="GrillMaster.Program class" Url="html/340a7308-8863-c1af-d093-5a7e3e772e4f.htm" />
+  <HelpKINode Title="GrillMasterFunctionalTests class">
+    <HelpKINode Title="GrillMasterFunctionalTests Class" Url="html/877a3389-7937-dff7-a174-23993320f666.htm" />
+    <HelpKINode Title="constructor" Url="html/510c0a7b-837f-62a6-5a80-0388f2f5ff9f.htm" />
+    <HelpKINode Title="methods" Url="html/09b8e9ae-d833-9123-14bc-e14454976f7c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillMasterFunctionalTests.GenerateDataFromRoundGeneratorService method" Url="html/740d34f7-2baf-b1fb-1d34-84a5dd6262e7.htm" />
+  <HelpKINode Title="GrillMasterFunctionalTests.GenerateDataFromRoundGeneratorServiceWLimitValues method" Url="html/163984ca-fff1-d5f2-82be-4308fa95ef2a.htm" />
+  <HelpKINode Title="GrillMasterFunctionalTests.GenerateDataFromRoundGeneratorServiceWRandomData method" Url="html/669a1420-d0e4-2a8a-0366-6ef632a07ea2.htm" />
+  <HelpKINode Title="GrillMasterFunctionalTests.GrillMasterFunctionalTests constructor" Url="html/510c0a7b-837f-62a6-5a80-0388f2f5ff9f.htm" />
+  <HelpKINode Title="GrillMasterFunctionalTests.MapDataFromMockedMenus method" Url="html/c88fb2b9-91fb-744f-45ee-cc0add04c022.htm" />
+  <HelpKINode Title="GrillMasterFunctionalTests.RequestDataFromMenuRequestService method" Url="html/8dc3140e-670a-55a0-eeff-12ce61190fab.htm" />
+  <HelpKINode Title="GrillMasterUnitTests class">
+    <HelpKINode Title="GrillMasterUnitTests Class" Url="html/57ff2d2f-f151-d91e-ddae-55f359f046e5.htm" />
+    <HelpKINode Title="constructor" Url="html/ff5f7b7c-78a3-f0ee-984a-ba6f35fbcc39.htm" />
+    <HelpKINode Title="methods" Url="html/12702273-7422-9324-176d-48436ea2353a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillMasterUnitTests.GenerateDataFromRoundGeneratorService method" Url="html/be6cd043-2552-362e-e215-2aea28cf3d09.htm" />
+  <HelpKINode Title="GrillMasterUnitTests.GrillMasterUnitTests constructor" Url="html/ff5f7b7c-78a3-f0ee-984a-ba6f35fbcc39.htm" />
+  <HelpKINode Title="GrillMasterUnitTests.MapDataFromMockedMenus method" Url="html/26d647b1-0c23-f390-4909-622a342f12dd.htm" />
+  <HelpKINode Title="GrillMasterUnitTests.RequestDataFromMenuRequestService method" Url="html/d4f9c978-50eb-4092-124f-6862e74c970b.htm" />
+  <HelpKINode Title="GrillMenu class">
+    <HelpKINode Title="GrillMenu Class" Url="html/8261117b-1b31-2351-43f1-c14e92c94491.htm" />
+    <HelpKINode Title="constructor" Url="html/c768bc5d-ed7f-5758-73e4-6cfbb67b2396.htm" />
+    <HelpKINode Title="methods" Url="html/54d353ab-3566-bf39-4857-a176b1120d0c.htm" />
+    <HelpKINode Title="properties" Url="html/a1bc98e9-e590-2729-cecb-03ae81e2c079.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillMenu.GrillMenu constructor" Url="html/c768bc5d-ed7f-5758-73e4-6cfbb67b2396.htm" />
+  <HelpKINode Title="GrillMenu.Items property" Url="html/57ba0904-08d6-9668-9a8a-4a1936c0a9e9.htm" />
+  <HelpKINode Title="GrillMenu.Menu property" Url="html/8e2af1b0-027d-652a-a315-be4572e70591.htm" />
+  <HelpKINode Title="GrillMenuItem class">
+    <HelpKINode Title="GrillMenuItem Class" Url="html/6dfbb87a-bf64-318e-b8b8-ff3d4f75bc47.htm" />
+    <HelpKINode Title="constructor" Url="html/9f251746-0529-02f9-b9a7-e852f518a31b.htm" />
+    <HelpKINode Title="methods" Url="html/b36c8c6f-5a73-d76c-a6c2-535c6cd789d4.htm" />
+    <HelpKINode Title="properties" Url="html/8d3e2c2d-4d26-4535-dab4-a85f21b99715.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillMenuItem.Duration property" Url="html/585ff302-4506-bdc4-231c-0ad323d44a7c.htm" />
+  <HelpKINode Title="GrillMenuItem.GrillMenuItem constructor" Url="html/9f251746-0529-02f9-b9a7-e852f518a31b.htm" />
+  <HelpKINode Title="GrillMenuItem.Length property" Url="html/ae893ea6-5d2c-b5e5-59b0-5afcfe74cf15.htm" />
+  <HelpKINode Title="GrillMenuItem.Name property" Url="html/4cd88bd6-1e11-39d6-4a55-afa6ae6d6ce9.htm" />
+  <HelpKINode Title="GrillMenuItem.Quantity property" Url="html/d095abb4-26f8-1e45-c207-3a9d66a7601a.htm" />
+  <HelpKINode Title="GrillMenuItem.Width property" Url="html/77d2850c-4f49-628e-a7e6-81cfa0ed1274.htm" />
+  <HelpKINode Title="GrillMenuItemHelper class">
+    <HelpKINode Title="GrillMenuItemHelper Class" Url="html/83be05c5-7445-ac4f-752e-afee9d5a5cc7.htm" />
+    <HelpKINode Title="methods" Url="html/d986299e-4fe0-099f-152f-c420d0a2e458.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillMenuItemHelper.GenerateItemsWithoutQuantity method" Url="html/751e3a6a-2e34-63ad-402d-08fde4cd03cc.htm" />
+  <HelpKINode Title="GrillMenuItemModel class">
+    <HelpKINode Title="GrillMenuItemModel Class" Url="html/77e038c4-4461-2934-835f-e75286010903.htm" />
+    <HelpKINode Title="constructor" Url="html/bda2d5df-523c-6af4-df95-e811660c2b1b.htm" />
+    <HelpKINode Title="methods" Url="html/0dfe6e07-84e9-8983-8947-c77a5a467da9.htm" />
+    <HelpKINode Title="properties" Url="html/6c2316b0-ded1-5bf4-8bbf-84ce5c5a1c9d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillMenuItemModel.GrillMenuItemModel constructor" Url="html/bda2d5df-523c-6af4-df95-e811660c2b1b.htm" />
+  <HelpKINode Title="GrillMenuItemModel.Height property" Url="html/f00149e0-09fb-821c-849e-82ca9c0e9bf0.htm" />
+  <HelpKINode Title="GrillMenuItemModel.Width property" Url="html/0238823b-8b7d-3486-d087-3ad1b935ef08.htm" />
+  <HelpKINode Title="GrillMenuItemModelWQuantity class">
+    <HelpKINode Title="GrillMenuItemModelWQuantity Class" Url="html/55ef9e71-2d40-3efe-0e93-0b16256d236a.htm" />
+    <HelpKINode Title="constructor" Url="html/19c74407-5c38-fc34-bbb1-957dfa2e6868.htm" />
+    <HelpKINode Title="methods" Url="html/23d912fe-3597-dcb5-fc2a-3d2c7b8f0650.htm" />
+    <HelpKINode Title="properties" Url="html/8ebf1001-f0bc-e022-3e41-0f745c45e3e0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillMenuItemModelWQuantity.GrillMenuItemModelWQuantity constructor" Url="html/19c74407-5c38-fc34-bbb1-957dfa2e6868.htm" />
+  <HelpKINode Title="GrillMenuItemModelWQuantity.Quantity property" Url="html/c67dbff1-5c86-bdcc-6d37-47117ea110cc.htm" />
+  <HelpKINode Title="GrillMenuItems property" Url="html/d0c34a08-594f-a801-b7cc-ea8300deec58.htm" />
+  <HelpKINode Title="GrillMenuMockHelper class">
+    <HelpKINode Title="GrillMenuMockHelper Class" Url="html/0b8aa12d-9149-e0b5-a891-e4c16b3f3879.htm" />
+    <HelpKINode Title="methods" Url="html/aed158b6-68a3-5f5b-8697-548b44610b62.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillMenuMockHelper.MockMenus method" Url="html/e0a0a4c6-63fc-d04e-a684-2014e68cb674.htm" />
+  <HelpKINode Title="GrillMenuModel class">
+    <HelpKINode Title="GrillMenuModel Class" Url="html/e6bb2687-0ee6-5e89-baf5-50e60d1948c8.htm" />
+    <HelpKINode Title="constructor" Url="html/76340a5d-e7a8-22d4-d6e5-b40ab36df72a.htm" />
+    <HelpKINode Title="methods" Url="html/fedddbb8-9efe-e846-5a19-10241ddd18a3.htm" />
+    <HelpKINode Title="properties" Url="html/60b99ec7-8ee3-bf1f-8432-13db8e9e8032.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillMenuModel.GrillMenuModel constructor" Url="html/76340a5d-e7a8-22d4-d6e5-b40ab36df72a.htm" />
+  <HelpKINode Title="GrillMenuModel.Items property" Url="html/a662e383-6f96-032a-134a-4bf802505b67.htm" />
+  <HelpKINode Title="GrillMenuModel.Menu property" Url="html/5dd7e5e5-9161-0cb7-60ca-1f641f46fb3a.htm" />
+  <HelpKINode Title="GrillMenuModel.Rounds property" Url="html/50b95470-4d6c-fa6d-c28a-e40a612e14ed.htm" />
+  <HelpKINode Title="GrillMenuRequestService class">
+    <HelpKINode Title="GrillMenuRequestService Class" Url="html/b184d83b-0878-f030-084c-0a70b33e35f2.htm" />
+    <HelpKINode Title="constructor" Url="html/1a2c14f4-0f59-0ee3-4a9a-9b3aadf6ffe5.htm" />
+    <HelpKINode Title="methods" Url="html/c0aa349a-77d0-6a59-cc53-240fcefbccd7.htm" />
+    <HelpKINode Title="properties" Url="html/c9ed8975-15bb-3c6a-262c-2164cd839748.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillMenuRequestService.GrillMenuRequestService constructor" Url="html/1a2c14f4-0f59-0ee3-4a9a-9b3aadf6ffe5.htm" />
+  <HelpKINode Title="GrillMenuRequestService.RouteName property" Url="html/52b973e8-52c0-2e4c-1605-2c66658d0254.htm" />
+  <HelpKINode Title="GrillModel class">
+    <HelpKINode Title="GrillModel Class" Url="html/ea0280e2-2c86-11e1-190c-cbf56eed94db.htm" />
+    <HelpKINode Title="fields" Url="html/36345158-fc84-a87d-7175-b7fda8ed64da.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillModel.HEIGHT field" Url="html/134217a9-5d15-6259-0092-552dd2f26923.htm" />
+  <HelpKINode Title="GrillModel.WIDTH field" Url="html/40ec4cbd-c179-2517-02d2-37cd4577371d.htm" />
+  <HelpKINode Title="GrillProfile class">
+    <HelpKINode Title="GrillProfile Class" Url="html/5f2420c8-d27a-7463-1353-7186fe565777.htm" />
+    <HelpKINode Title="constructor" Url="html/f2ff5932-86de-4831-621f-86d4137bdfb9.htm" />
+    <HelpKINode Title="methods" Url="html/a9549bc3-0693-8b76-3d32-0cfe3b878047.htm" />
+    <HelpKINode Title="properties" Url="html/31f22d2c-ad13-0e4f-ec52-307ccd070fb1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillProfile.GrillProfile constructor" Url="html/f2ff5932-86de-4831-621f-86d4137bdfb9.htm" />
+  <HelpKINode Title="GrillRoundModel class">
+    <HelpKINode Title="GrillRoundModel Class" Url="html/94dd2ab8-4571-83c4-5134-21059ea059b2.htm" />
+    <HelpKINode Title="constructor" Url="html/1646b549-cbb8-71c2-102a-24ff24c34383.htm" />
+    <HelpKINode Title="methods" Url="html/a5c20d84-5476-03d2-524a-205fb8671a2e.htm" />
+    <HelpKINode Title="properties" Url="html/87ac5aeb-502a-ea4f-cbbb-8bcd0d230681.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillRoundModel.CurrentMaxHeightAllStrips property" Url="html/93f8dfeb-34f1-10ef-2db8-bbe4ee6c9176.htm" />
+  <HelpKINode Title="GrillRoundModel.GrillRoundModel constructor" Url="html/1646b549-cbb8-71c2-102a-24ff24c34383.htm" />
+  <HelpKINode Title="GrillRoundModel.GrillRoundStrips property" Url="html/2853819d-9691-4214-585a-624b3727035b.htm" />
+  <HelpKINode Title="GrillRoundModel.Number property" Url="html/e82458d8-6c47-26d1-0e43-c415b1273da8.htm" />
+  <HelpKINode Title="GrillRoundStripModel class">
+    <HelpKINode Title="GrillRoundStripModel Class" Url="html/fa2ae17f-e114-7597-93da-90cf920bf425.htm" />
+    <HelpKINode Title="constructor" Url="html/5bfbc67c-a8b3-cc96-0824-c5253c3de2de.htm" />
+    <HelpKINode Title="methods" Url="html/2fe8d15c-8aee-8f68-39be-3e791602aee1.htm" />
+    <HelpKINode Title="properties" Url="html/040914a9-f848-5146-b72d-df41ba71bcf0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillRoundStripModel.GrillMenuItems property" Url="html/d0c34a08-594f-a801-b7cc-ea8300deec58.htm" />
+  <HelpKINode Title="GrillRoundStripModel.GrillRoundStripModel constructor" Url="html/5bfbc67c-a8b3-cc96-0824-c5253c3de2de.htm" />
+  <HelpKINode Title="GrillRoundStripModel.Height property" Url="html/db3cf476-c9df-5a96-42ba-c63692f7fe15.htm" />
+  <HelpKINode Title="GrillRoundStripModel.Width property" Url="html/9d3fec54-c51d-98d7-9c3e-c31b831ea2e9.htm" />
+  <HelpKINode Title="GrillRoundStrips property" Url="html/2853819d-9691-4214-585a-624b3727035b.htm" />
+  <HelpKINode Title="GrillSettings class">
+    <HelpKINode Title="GrillSettings Class" Url="html/84efec50-77c0-65fe-9c8b-406a373e1923.htm" />
+    <HelpKINode Title="constructor" Url="html/66ee252b-afc7-153f-588b-b87a4e29fdfa.htm" />
+    <HelpKINode Title="fields" Url="html/29ae7eb3-6188-9597-469f-7c45f169ddee.htm" />
+    <HelpKINode Title="methods" Url="html/c430d0d7-331a-93d9-a552-4e72e86c141b.htm" />
+    <HelpKINode Title="properties" Url="html/2bd26de8-4fbf-6120-b56f-25cb7b434a27.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GrillSettings.BaseURL property" Url="html/ed990071-4574-4949-44f4-6adf6d4a39ed.htm" />
+  <HelpKINode Title="GrillSettings.GrillSettings constructor" Url="html/66ee252b-afc7-153f-588b-b87a4e29fdfa.htm" />
+  <HelpKINode Title="GrillSettings.IsDev property" Url="html/889c80e5-bcb5-47ba-28ae-27c39d395b03.htm" />
+  <HelpKINode Title="GrillSettings.SECTION field" Url="html/081b0658-85b8-ddde-2eec-18c8128a351e.htm" />
+  <HelpKINode Title="Guid property" Url="html/cb3db431-3bd6-c8e6-7258-05bb4b4b08af.htm" />
+  <HelpKINode Title="HEIGHT field" Url="html/134217a9-5d15-6259-0092-552dd2f26923.htm" />
+  <HelpKINode Title="Height property">
+    <HelpKINode Title="GrillMenuItemModel.Height Property " Url="html/f00149e0-09fb-821c-849e-82ca9c0e9bf0.htm" />
+    <HelpKINode Title="GrillRoundStripModel.Height Property " Url="html/db3cf476-c9df-5a96-42ba-c63692f7fe15.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HttpClientHelper class">
+    <HelpKINode Title="HttpClientHelper Class" Url="html/43c27eb9-da11-385d-539b-516e05c04a12.htm" />
+    <HelpKINode Title="methods" Url="html/ded7a3bd-d430-3734-d3c4-a6777d4151a4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HttpClientHelper.AddHttpBaseClientConfig method" Url="html/65254a7c-b97b-9580-5dba-02eae4451272.htm" />
+  <HelpKINode Title="IAsyncOnlyGetRepository(Of T) interface">
+    <HelpKINode Title="IAsyncOnlyGetRepository(T) Interface" Url="html/493be12b-6aaa-1a9a-afff-9a53af494fad.htm" />
+    <HelpKINode Title="methods" Url="html/ed770d52-862f-b32d-f716-ce921589e476.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAsyncOnlyGetRepository(Of T).GetAllAsync method" Url="html/78260f49-38c5-28c4-60a6-bbfa8492b5e7.htm" />
+  <HelpKINode Title="IAsyncOnlyGetRepository&lt;T&gt; interface">
+    <HelpKINode Title="IAsyncOnlyGetRepository(T) Interface" Url="html/493be12b-6aaa-1a9a-afff-9a53af494fad.htm" />
+    <HelpKINode Title="methods" Url="html/ed770d52-862f-b32d-f716-ce921589e476.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAsyncOnlyGetRepository&lt;T&gt;.GetAllAsync method" Url="html/78260f49-38c5-28c4-60a6-bbfa8492b5e7.htm" />
+  <HelpKINode Title="IAsyncRoundGenerator(Of T, U) interface">
+    <HelpKINode Title="IAsyncRoundGenerator(T, U) Interface" Url="html/39948c94-0302-a841-9557-39fe45b94248.htm" />
+    <HelpKINode Title="methods" Url="html/c0bffc82-b8b4-d548-254e-7bf219f626a6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAsyncRoundGenerator(Of T, U).GenerateRounds method" Url="html/28b57c32-5653-f185-b3f4-d74efd28a150.htm" />
+  <HelpKINode Title="IAsyncRoundGenerator&lt;T, U&gt; interface">
+    <HelpKINode Title="IAsyncRoundGenerator(T, U) Interface" Url="html/39948c94-0302-a841-9557-39fe45b94248.htm" />
+    <HelpKINode Title="methods" Url="html/c0bffc82-b8b4-d548-254e-7bf219f626a6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IAsyncRoundGenerator&lt;T, U&gt;.GenerateRounds method" Url="html/28b57c32-5653-f185-b3f4-d74efd28a150.htm" />
+  <HelpKINode Title="Id property" Url="html/da0eee15-cc53-172d-a1d6-07c8d6e5516f.htm" />
+  <HelpKINode Title="IEnumerableExtensions class">
+    <HelpKINode Title="IEnumerableExtensions Class" Url="html/587aa8f6-cebd-07b0-d2c6-13c4e98a1256.htm" />
+    <HelpKINode Title="methods" Url="html/82f0dc34-618c-87d3-c9ac-bacf366bb731.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEnumerableExtensions.IsNullOrEmpty(Of T) method" Url="html/cd7fc534-2703-092a-0e2f-0554865a7f1d.htm" />
+  <HelpKINode Title="IEnumerableExtensions.IsNullOrEmpty&lt;T&gt; method" Url="html/cd7fc534-2703-092a-0e2f-0554865a7f1d.htm" />
+  <HelpKINode Title="IGrillMenuRequestService interface">
+    <HelpKINode Title="IGrillMenuRequestService Interface" Url="html/72b0edc6-05e7-79ec-fa15-cfb1914955cb.htm" />
+    <HelpKINode Title="methods" Url="html/1d9b2bd4-9c15-8d0a-86c2-9906d86f6980.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Infrastructure namespace" Url="html/90c4821b-b01c-d307-cb64-68844a872ec9.htm" />
+  <HelpKINode Title="Infrastructure.BaseApiService(Of T) class" Url="html/80db2fb8-591d-4919-4063-d0976a0b060a.htm" />
+  <HelpKINode Title="Infrastructure.BaseApiService&lt;T&gt; class" Url="html/80db2fb8-591d-4919-4063-d0976a0b060a.htm" />
+  <HelpKINode Title="Infrastructure.BaseGrillMenuObject class" Url="html/fdbd3c36-64b3-e96c-5cd6-1ae0c08d5ab8.htm" />
+  <HelpKINode Title="Infrastructure.GrillMenu class" Url="html/8261117b-1b31-2351-43f1-c14e92c94491.htm" />
+  <HelpKINode Title="Infrastructure.GrillMenuItem class" Url="html/6dfbb87a-bf64-318e-b8b8-ff3d4f75bc47.htm" />
+  <HelpKINode Title="Infrastructure.GrillMenuMockHelper class" Url="html/0b8aa12d-9149-e0b5-a891-e4c16b3f3879.htm" />
+  <HelpKINode Title="Infrastructure.GrillMenuRequestService class" Url="html/b184d83b-0878-f030-084c-0a70b33e35f2.htm" />
+  <HelpKINode Title="Infrastructure.IGrillMenuRequestService interface" Url="html/72b0edc6-05e7-79ec-fa15-cfb1914955cb.htm" />
+  <HelpKINode Title="IsDev property" Url="html/889c80e5-bcb5-47ba-28ae-27c39d395b03.htm" />
+  <HelpKINode Title="IsNullOrEmpty(Of T) method" Url="html/cd7fc534-2703-092a-0e2f-0554865a7f1d.htm" />
+  <HelpKINode Title="IsNullOrEmpty&lt;T&gt; method" Url="html/cd7fc534-2703-092a-0e2f-0554865a7f1d.htm" />
+  <HelpKINode Title="Items property">
+    <HelpKINode Title="GrillMenu.Items Property " Url="html/57ba0904-08d6-9668-9a8a-4a1936c0a9e9.htm" />
+    <HelpKINode Title="GrillMenuModel.Items Property " Url="html/a662e383-6f96-032a-134a-4bf802505b67.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Length property" Url="html/ae893ea6-5d2c-b5e5-59b0-5afcfe74cf15.htm" />
+  <HelpKINode Title="Main method" Url="html/c6d4b968-5604-2f4c-2199-236449257b78.htm" />
+  <HelpKINode Title="MapDataFromMockedMenus method">
+    <HelpKINode Title="GrillMasterFunctionalTests.MapDataFromMockedMenus Method " Url="html/c88fb2b9-91fb-744f-45ee-cc0add04c022.htm" />
+    <HelpKINode Title="GrillMasterUnitTests.MapDataFromMockedMenus Method " Url="html/26d647b1-0c23-f390-4909-622a342f12dd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Menu property">
+    <HelpKINode Title="GrillMenu.Menu Property " Url="html/8e2af1b0-027d-652a-a315-be4572e70591.htm" />
+    <HelpKINode Title="GrillMenuModel.Menu Property " Url="html/5dd7e5e5-9161-0cb7-60ca-1f641f46fb3a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MockMenus method" Url="html/e0a0a4c6-63fc-d04e-a684-2014e68cb674.htm" />
+  <HelpKINode Title="Name property" Url="html/4cd88bd6-1e11-39d6-4a55-afa6ae6d6ce9.htm" />
+  <HelpKINode Title="Number property" Url="html/e82458d8-6c47-26d1-0e43-c415b1273da8.htm" />
+  <HelpKINode Title="Program class">
+    <HelpKINode Title="Program Class" Url="html/340a7308-8863-c1af-d093-5a7e3e772e4f.htm" />
+    <HelpKINode Title="constructor" Url="html/e9f0cc36-0f86-2cdd-1105-7ce7f3356f1b.htm" />
+    <HelpKINode Title="methods" Url="html/93a11b07-ef1f-7d61-6332-25930a3b802f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Program.Main method" Url="html/c6d4b968-5604-2f4c-2199-236449257b78.htm" />
+  <HelpKINode Title="Program.Program constructor" Url="html/e9f0cc36-0f86-2cdd-1105-7ce7f3356f1b.htm" />
+  <HelpKINode Title="Quantity property">
+    <HelpKINode Title="GrillMenuItem.Quantity Property " Url="html/d095abb4-26f8-1e45-c207-3a9d66a7601a.htm" />
+    <HelpKINode Title="GrillMenuItemModelWQuantity.Quantity Property " Url="html/c67dbff1-5c86-bdcc-6d37-47117ea110cc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RequestDataFromMenuRequestService method">
+    <HelpKINode Title="GrillMasterFunctionalTests.RequestDataFromMenuRequestService Method " Url="html/8dc3140e-670a-55a0-eeff-12ce61190fab.htm" />
+    <HelpKINode Title="GrillMasterUnitTests.RequestDataFromMenuRequestService Method " Url="html/d4f9c978-50eb-4092-124f-6862e74c970b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RoundGeneratorService class">
+    <HelpKINode Title="RoundGeneratorService Class" Url="html/4b4e3e54-e708-afd1-37f8-f6fea25b5397.htm" />
+    <HelpKINode Title="constructor" Url="html/9cbeb0dd-adb7-29b5-6173-5b8168160681.htm" />
+    <HelpKINode Title="methods" Url="html/809b8e08-38fe-a511-0dbf-08120cd57983.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RoundGeneratorService.GenerateRounds method" Url="html/9c56ccef-9575-efef-08c6-c4fbaa419be1.htm" />
+  <HelpKINode Title="RoundGeneratorService.RoundGeneratorService constructor" Url="html/9cbeb0dd-adb7-29b5-6173-5b8168160681.htm" />
+  <HelpKINode Title="Rounds property" Url="html/50b95470-4d6c-fa6d-c28a-e40a612e14ed.htm" />
+  <HelpKINode Title="RouteName property">
+    <HelpKINode Title="BaseApiService(T).RouteName Property " Url="html/462f6ca8-9f2c-64e3-8364-de2f6ebce626.htm" />
+    <HelpKINode Title="GrillMenuRequestService.RouteName Property " Url="html/52b973e8-52c0-2e4c-1605-2c66658d0254.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SECTION field" Url="html/081b0658-85b8-ddde-2eec-18c8128a351e.htm" />
+  <HelpKINode Title="UnitTests namespace" Url="html/b6261fe3-14ca-ce1b-6bed-5dedc86c37de.htm" />
+  <HelpKINode Title="UnitTests.GrillMasterUnitTests class" Url="html/57ff2d2f-f151-d91e-ddae-55f359f046e5.htm" />
+  <HelpKINode Title="WIDTH field" Url="html/40ec4cbd-c179-2517-02d2-37cd4577371d.htm" />
+  <HelpKINode Title="Width property">
+    <HelpKINode Title="GrillMenuItem.Width Property " Url="html/77d2850c-4f49-628e-a7e6-81cfa0ed1274.htm" />
+    <HelpKINode Title="GrillMenuItemModel.Width Property " Url="html/0238823b-8b7d-3486-d087-3ad1b935ef08.htm" />
+    <HelpKINode Title="GrillRoundStripModel.Width Property " Url="html/9d3fec54-c51d-98d7-9c3e-c31b831ea2e9.htm" />
+  </HelpKINode>
+</HelpKI>

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "XsnqT06vtwO0QG66Ho5RnDiAPyMUWKa6IC8UrCz3bOfJigynqb2HY0Rw+gayxpC/3Lf37kARHsn0qg6fxij9yg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\RafaelAlamanac\\Desktop\\GrillMaster\\ApplicationCore\\ApplicationCore.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RafaelAlamanac\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\RafaelAlamanac\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\RafaelAlamanac\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\RafaelAlamanac\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\RafaelAlamanac\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "C:\\Users\\RafaelAlamanac\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\RafaelAlamanac\\.nuget\\packages\\sonaranalyzer.csharp\\8.25.0.33663\\sonaranalyzer.csharp.8.25.0.33663.nupkg.sha512",
+    "C:\\Users\\RafaelAlamanac\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

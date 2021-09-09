@@ -1,0 +1,13 @@
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\obj\Debug\net5.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\obj\Debug\net5.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\obj\Debug\net5.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\obj\Debug\net5.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\bin\Debug\net5.0\ApplicationCore.deps.json
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\bin\Debug\net5.0\ApplicationCore.dll
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\bin\Debug\net5.0\ref\ApplicationCore.dll
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\bin\Debug\net5.0\ApplicationCore.pdb
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\obj\Debug\net5.0\ApplicationCore.dll
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\obj\Debug\net5.0\ref\ApplicationCore.dll
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\obj\Debug\net5.0\ApplicationCore.pdb
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\bin\Debug\net5.0\ApplicationCore.xml
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\obj\Debug\net5.0\ApplicationCore.csprojAssemblyReference.cache

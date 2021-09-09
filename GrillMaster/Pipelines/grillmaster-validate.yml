@@ -1,0 +1,36 @@
+parameters:
+- name: test # name of the parameter; required
+  type: boolean # data type of the parameter; required
+  default: true
+  
+
+stages:
+- stage: validate
+  displayName: Validate
+  dependsOn:
+  - validate_pr
+  condition: and(eq(${{parameters.test}}, true),in(dependencies.validate_pr.result, 'Succeeded', 'Skipped'))
+  jobs:
+  - job: Test
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:  
+      - task: DotNetCoreCLI@2
+        displayName: 'dotnet restore'
+        inputs:
+          command: restore
+          projects: '**/*.csproj'
+          vstsFeed: '2042f6cb-51e2-492d-8ebd-9f775c4efd94'
+
+      - task: DotNetCoreCLI@2
+        displayName: 'dotnet build'
+        inputs:
+          projects: '**/*.csproj'
+          arguments: '--configuration $(BuildConfiguration)'
+
+      - task: DotNetCoreCLI@2
+        displayName: 'dotnet test'
+        inputs:
+          command: test
+          projects: '**/*[Tt]ests/*.csproj'
+          arguments: '--configuration $(BuildConfiguration)'

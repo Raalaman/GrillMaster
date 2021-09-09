@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2021.4.9.0" projectFile="C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\SandCastleDocumentation.shfbproj" started="12/07/2021 11:39:13">
+<buildStep step="Initializing">
+Finding tools...
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
+Locating components in the following folder(s):
+    C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins\
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\
+Using framework reflection data for &#39;.NET Core/.NET Standard/.NET 5.0+&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NET&#39;
+Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
+Loading and initializing plug-ins...
+Lightweight Website Style Version 2021.4.9.0
+Copyright &#169; 2006-2021, Eric Woodruff, All Rights Reserved
+Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\GrillMaster.sln
+    Found project &#39;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\GrillMaster.csproj&#39;
+    Found project &#39;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\..\FunctionalTests\FunctionalTests.csproj&#39;
+    Found project &#39;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\..\UnitTests\UnitTests.csproj&#39;
+    Found project &#39;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\..\ApplicationCore\ApplicationCore.csproj&#39;
+    Found project &#39;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\..\Infrastructure\Infrastructure.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\bin\Debug\net5.0\GrillMaster.dll&#39; (.NETCoreApp 5.0)
+    Found assembly &#39;C:\Users\RafaelAlamanac\Desktop\GrillMaster\FunctionalTests\bin\Debug\net5.0\FunctionalTests.dll&#39; (.NETCoreApp 5.0)
+    Found assembly &#39;C:\Users\RafaelAlamanac\Desktop\GrillMaster\UnitTests\bin\Debug\net5.0\UnitTests.dll&#39; (.NETCoreApp 5.0)
+    Found assembly &#39;C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\bin\Debug\net5.0\ApplicationCore.dll&#39; (.NETCoreApp 5.0)
+    Found assembly &#39;C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\bin\Debug\net5.0\Infrastructure.dll&#39; (.NETCoreApp 5.0)
+
+References to include:
+    AutoMapper
+    AutoMapper.Extensions.Microsoft.DependencyInjection
+    Castle.Core
+    Microsoft.AspNetCore.Http.Abstractions
+    Microsoft.AspNetCore.Http.Features
+    Microsoft.CSharp
+    Microsoft.DotNet.PlatformAbstractions
+    Microsoft.Extensions.Configuration
+    Microsoft.Extensions.Configuration.Abstractions
+    Microsoft.Extensions.Configuration.Binder
+    Microsoft.Extensions.Configuration.CommandLine
+    Microsoft.Extensions.Configuration.EnvironmentVariables
+    Microsoft.Extensions.Configuration.FileExtensions
+    Microsoft.Extensions.Configuration.Json
+    Microsoft.Extensions.Configuration.UserSecrets
+    Microsoft.Extensions.DependencyInjection
+    Microsoft.Extensions.DependencyInjection.Abstractions
+    Microsoft.Extensions.DependencyModel
+    Microsoft.Extensions.FileProviders.Abstractions
+    Microsoft.Extensions.FileProviders.Physical
+    Microsoft.Extensions.FileSystemGlobbing
+    Microsoft.Extensions.Hosting
+    Microsoft.Extensions.Hosting.Abstractions
+    Microsoft.Extensions.Http
+    Microsoft.Extensions.Logging
+    Microsoft.Extensions.Logging.Abstractions
+    Microsoft.Extensions.Logging.Configuration
+    Microsoft.Extensions.Logging.Console
+    Microsoft.Extensions.Logging.Debug
+    Microsoft.Extensions.Logging.EventLog
+    Microsoft.Extensions.Logging.EventSource
+    Microsoft.Extensions.Options
+    Microsoft.Extensions.Options.ConfigurationExtensions
+    Microsoft.Extensions.Primitives
+    Microsoft.TestPlatform.CommunicationUtilities
+    Microsoft.TestPlatform.CoreUtilities
+    Microsoft.TestPlatform.CrossPlatEngine
+    Microsoft.TestPlatform.PlatformAbstractions
+    Microsoft.TestPlatform.Utilities
+    Microsoft.VisualBasic
+    Microsoft.VisualBasic.Core
+    Microsoft.VisualStudio.CodeCoverage.Shim
+    Microsoft.VisualStudio.TestPlatform.Common
+    Microsoft.VisualStudio.TestPlatform.ObjectModel
+    Microsoft.Win32.Primitives
+    Moq
+    mscorlib
+    netstandard
+    Newtonsoft.Json
+    NuGet.Frameworks
+    Serilog
+    Serilog.AspNetCore
+    Serilog.Extensions.Hosting
+    Serilog.Extensions.Logging
+    Serilog.Formatting.Compact
+    Serilog.Settings.Configuration
+    Serilog.Sinks.Console
+    Serilog.Sinks.Debug
+    Serilog.Sinks.File
+    System
+    System.AppContext
+    System.Buffers
+    System.Collections
+    System.Collections.Concurrent
+    System.Collections.Immutable
+    System.Collections.NonGeneric
+    System.Collections.Specialized
+    System.ComponentModel
+    System.ComponentModel.Annotations
+    System.ComponentModel.DataAnnotations
+    System.ComponentModel.EventBasedAsync
+    System.ComponentModel.Primitives
+    System.ComponentModel.TypeConverter
+    System.Configuration
+    System.Console
+    System.Core
+    System.Data
+    System.Data.Common
+    System.Data.DataSetExtensions
+    System.Diagnostics.Contracts
+    System.Diagnostics.Debug
+    System.Diagnostics.DiagnosticSource
+    System.Diagnostics.EventLog
+    System.Diagnostics.FileVersionInfo
+    System.Diagnostics.Process
+    System.Diagnostics.StackTrace
+    System.Diagnostics.TextWriterTraceListener
+    System.Diagnostics.Tools
+    System.Diagnostics.TraceSource
+    System.Diagnostics.Tracing
+    System.Drawing
+    System.Drawing.Primitives
+    System.Dynamic.Runtime
+    System.Formats.Asn1
+    System.Globalization
+    System.Globalization.Calendars
+    System.Globalization.Extensions
+    System.IO
+    System.IO.Compression
+    System.IO.Compression.Brotli
+    System.IO.Compression.FileSystem
+    System.IO.Compression.ZipFile
+    System.IO.FileSystem
+    System.IO.FileSystem.DriveInfo
+    System.IO.FileSystem.Primitives
+    System.IO.FileSystem.Watcher
+    System.IO.IsolatedStorage
+    System.IO.MemoryMappedFiles
+    System.IO.Pipes
+    System.IO.UnmanagedMemoryStream
+    System.Linq
+    System.Linq.Expressions
+    System.Linq.Parallel
+    System.Linq.Queryable
+    System.Memory
+    System.Net
+    System.Net.Http
+    System.Net.Http.Json
+    System.Net.HttpListener
+    System.Net.Mail
+    System.Net.NameResolution
+    System.Net.NetworkInformation
+    System.Net.Ping
+    System.Net.Primitives
+    System.Net.Requests
+    System.Net.Security
+    System.Net.ServicePoint
+    System.Net.Sockets
+    System.Net.WebClient
+    System.Net.WebHeaderCollection
+    System.Net.WebProxy
+    System.Net.WebSockets
+    System.Net.WebSockets.Client
+    System.Numerics
+    System.Numerics.Vectors
+    System.ObjectModel
+    System.Reflection
+    System.Reflection.DispatchProxy
+    System.Reflection.Emit
+    System.Reflection.Emit.ILGeneration
+    System.Reflection.Emit.Lightweight
+    System.Reflection.Extensions
+    System.Reflection.Metadata
+    System.Reflection.Primitives
+    System.Reflection.TypeExtensions
+    System.Resources.Reader
+    System.Resources.ResourceManager
+    System.Resources.Writer
+    System.Runtime
+    System.Runtime.CompilerServices.Unsafe
+    System.Runtime.CompilerServices.VisualC
+    System.Runtime.Extensions
+    System.Runtime.Handles
+    System.Runtime.InteropServices
+    System.Runtime.InteropServices.RuntimeInformation
+    System.Runtime.Intrinsics
+    System.Runtime.Loader
+    System.Runtime.Numerics
+    System.Runtime.Serialization
+    System.Runtime.Serialization.Formatters
+    System.Runtime.Serialization.Json
+    System.Runtime.Serialization.Primitives
+    System.Runtime.Serialization.Xml
+    System.Security
+    System.Security.Claims
+    System.Security.Cryptography.Algorithms
+    System.Security.Cryptography.Csp
+    System.Security.Cryptography.Encoding
+    System.Security.Cryptography.Primitives
+    System.Security.Cryptography.X509Certificates
+    System.Security.Principal
+    System.Security.Principal.Windows
+    System.Security.SecureString
+    System.ServiceModel.Web
+    System.ServiceProcess
+    System.Text.Encoding
+    System.Text.Encoding.CodePages
+    System.Text.Encoding.Extensions
+    System.Text.Encodings.Web
+    System.Text.Json
+    System.Text.RegularExpressions
+    System.Threading
+    System.Threading.Channels
+    System.Threading.Overlapped
+    System.Threading.Tasks
+    System.Threading.Tasks.Dataflow
+    System.Threading.Tasks.Extensions
+    System.Threading.Tasks.Parallel
+    System.Threading.Thread
+    System.Threading.ThreadPool
+    System.Threading.Timer
+    System.Transactions
+    System.Transactions.Local
+    System.ValueTuple
+    System.Web
+    System.Web.HttpUtility
+    System.Windows
+    System.Xml
+    System.Xml.Linq
+    System.Xml.ReaderWriter
+    System.Xml.Serialization
+    System.Xml.XDocument
+    System.Xml.XmlDocument
+    System.Xml.XmlSerializer
+    System.Xml.XPath
+    System.Xml.XPath.XDocument
+    testhost
+    WindowsBase
+
+Copying XML comments files
+    C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\Infrastructure.xml -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Infrastructure.xml
+    C:\Users\RafaelAlamanac\Desktop\GrillMaster\ApplicationCore\ApplicationCore.xml -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\ApplicationCore.xml
+    C:\Users\RafaelAlamanac\Desktop\GrillMaster\UnitTests\UnitTests.xml -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\UnitTests.xml
+    C:\Users\RafaelAlamanac\Desktop\GrillMaster\FunctionalTests\FunctionalTests.xml -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\FunctionalTests.xml
+    C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\GrillMaster.xml -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\GrillMaster.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Ingl&#233;s (Estados Unidos))...
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+</plugIn>    Last step completed in 00:00:00,0190
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0150
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo-93d0f839-630c-4e49-9546-cf408f164e41.proj]
+Compilaci&#162;n iniciada a las 12/07/2021 11:39:15.
+Proyecto &quot;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\GenerateRefInfo-93d0f839-630c-4e49-9546-cf408f164e41.proj&quot; en nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Creando directorio &quot;obj\Debug\&quot;.
+GenerateBindingRedirects:
+  No hay redirecciones de enlace sugeridas procedentes de ResolveAssemblyReferences.
+GenerateRefInfo:
+  MRefBuilder (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 5 assemblies for reflection and 212 dependency assemblies.
+  Wrote information on 5 namespaces, 26 types, and 63 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\GenerateRefInfo-93d0f839-630c-4e49-9546-cf408f164e41.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:01,9969
+</buildStep>
+<buildStep step="TransformReflectionInfo">
+Transforming reflection output...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
+Compilaci&#162;n iniciada a las 12/07/2021 11:39:17.
+Proyecto &quot;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\TransformManifest.proj&quot; en nodo 1 (destinos predeterminados).
+TransformManifest:
+  XslTransform (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
+  Copiando el archivo de &quot;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\reflection.xml&quot; en &quot;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\reflection.nofilenames&quot;.
+  XslTransform (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+  XslTransform (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\TransformManifest.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:00,6137
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:01,2154
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
+Sandcastle Help File Builder and Tools, version 2021.4.9.0
+Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Reflection information will be retrieved from &#39;reflection.xml&#39;
+Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
+Indexing C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\5.0.0\ref\net5.0\*.xml
+Indexing C:\Program Files\dotnet\packs\Microsoft.WindowsDesktop.App.Ref\5.0.0\ref\net5.0\*.xml
+Indexing C:\Program Files\dotnet\packs\Microsoft.AspNetCore.App.Ref\5.0.0\ref\net5.0\*.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Castle.Core.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Moq.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\NuGet.Frameworks.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\WindowsBase.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Xml.XPath.XDocument.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Xml.XPath.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Xml.XmlSerializer.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Web.HttpUtility.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Transactions.Local.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Threading.ThreadPool.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Threading.Thread.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Threading.Tasks.Parallel.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Threading.Tasks.Dataflow.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Threading.Overlapped.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Threading.Channels.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Text.Json.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Text.Encoding.CodePages.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Security.Cryptography.X509Certificates.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Security.Cryptography.Primitives.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Security.Cryptography.Encoding.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Security.Cryptography.Csp.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Security.Cryptography.Algorithms.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Security.Claims.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.Serialization.Xml.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.Serialization.Json.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.Serialization.Formatters.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.Numerics.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.Loader.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.Intrinsics.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.CompilerServices.VisualC.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.CompilerServices.Unsafe.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Resources.Writer.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Reflection.Metadata.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Reflection.Emit.Lightweight.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Reflection.Emit.ILGeneration.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Reflection.Emit.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Reflection.DispatchProxy.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Numerics.Vectors.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.WebSockets.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.WebSockets.Client.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.WebProxy.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.WebHeaderCollection.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.WebClient.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.Sockets.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.ServicePoint.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.Security.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.Requests.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.Primitives.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.Ping.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.NetworkInformation.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.NameResolution.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.Mail.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.HttpListener.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.Http.Json.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Net.Http.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Memory.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Linq.Queryable.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Linq.Parallel.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.IO.Pipes.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.IO.MemoryMappedFiles.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.IO.IsolatedStorage.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.IO.FileSystem.Watcher.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.IO.FileSystem.DriveInfo.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.IO.Compression.ZipFile.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.IO.Compression.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.IO.Compression.Brotli.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Formats.Asn1.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Drawing.Primitives.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Diagnostics.Tracing.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Diagnostics.TraceSource.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Diagnostics.TextWriterTraceListener.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Diagnostics.StackTrace.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Diagnostics.Process.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Diagnostics.FileVersionInfo.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Diagnostics.DiagnosticSource.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Diagnostics.Contracts.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Data.Common.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.ComponentModel.TypeConverter.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.ComponentModel.Primitives.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.ComponentModel.EventBasedAsync.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.ComponentModel.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.ComponentModel.Annotations.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Collections.Specialized.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Collections.NonGeneric.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Collections.Immutable.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Collections.Concurrent.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\mscorlib.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Win32.Primitives.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.VisualBasic.Core.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.CSharp.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Threading.Timer.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Serilog.Sinks.File.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Serilog.Sinks.Debug.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Threading.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Globalization.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Resources.ResourceManager.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Reflection.Extensions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.Handles.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Reflection.Primitives.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Reflection.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Text.Encoding.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Threading.Tasks.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.IO.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Console.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Serilog.Sinks.Console.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Linq.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Dynamic.Runtime.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Diagnostics.Debug.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Xml.XDocument.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Xml.ReaderWriter.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Text.RegularExpressions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Text.Encoding.Extensions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.Serialization.Primitives.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.ObjectModel.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Linq.Expressions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Newtonsoft.Json.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Runtime.Extensions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Reflection.TypeExtensions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.IO.FileSystem.Primitives.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.IO.FileSystem.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Collections.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.AppContext.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Serilog.Settings.Configuration.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Serilog.Formatting.Compact.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Serilog.Extensions.Logging.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Serilog.Extensions.Hosting.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Serilog.AspNetCore.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Serilog.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Http.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Options.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Logging.EventSource.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Security.Principal.Windows.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Diagnostics.EventLog.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Logging.EventLog.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Logging.Debug.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Logging.Console.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Options.ConfigurationExtensions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Logging.Configuration.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Logging.Abstractions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Logging.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Hosting.Abstractions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.FileSystemGlobbing.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.FileProviders.Physical.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.FileProviders.Abstractions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.DependencyInjection.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Configuration.UserSecrets.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Configuration.Json.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Configuration.FileExtensions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Configuration.EnvironmentVariables.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Configuration.CommandLine.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Configuration.Binder.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Hosting.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Primitives.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Configuration.Abstractions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.Extensions.Configuration.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\System.Text.Encodings.Web.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.AspNetCore.Http.Features.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Microsoft.AspNetCore.Http.Abstractions.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\AutoMapper.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Infrastructure.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\ApplicationCore.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\UnitTests.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\FunctionalTests.xml
+Indexing C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\GrillMaster.xml
+Indexed 115773 members in 450 file(s).  166 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Merging inherited documentation...
+
+
+Documentation merged successfully
+    Last step completed in 00:00:02,1643
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Compilaci&#162;n iniciada a las 12/07/2021 11:39:21.
+Proyecto &quot;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\GenerateIntermediateTOC.proj&quot; en nodo 1 (destinos predeterminados).
+GenerateIntermediateTOC:
+  XslTransform (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\GenerateIntermediateTOC.proj&quot; (destinos predeterminados).
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,3250
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    sandcastle.config
+    Last step completed in 00:00:00,7630
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\sandcastle.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0880
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
+Compilaci&#162;n iniciada a las 12/07/2021 11:39:22.
+Proyecto &quot;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj&quot; en nodo 1 (destinos predeterminados).
+BuildTopics:
+  BuildAssembler (v2021.4.9.0)
+  Copyright &#184; 2006-2021, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved.
+  Loading configuration...
+  Processing topics...
+BuildAssembler : warning : ShowMissingComponent: [N:ApplicationCore] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.Client] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:ApplicationCore.Client.DEFAULT] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.CustomJsonSerializer] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.CustomJsonSerializer.DeserializeHttpContent``1(System.Net.Http.HttpContent)] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.CustomJsonSerializer.DeserializeHttpContent``1(System.Net.Http.HttpContent)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.CustomJsonSerializer.DeserializeHttpContent``1(System.Net.Http.HttpContent)] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.CustomJsonSerializer.DeserializeHttpContent``1(System.Net.Http.HttpContent)] Missing &lt;param name=&quot;httpContent&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.GrillMenuItemHelper] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.GrillMenuItemHelper.GenerateItemsWithoutQuantity(ApplicationCore.GrillMenuItemModelWQuantity)] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.GrillMenuItemModel] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ApplicationCore.GrillMenuItemModel.Height] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ApplicationCore.GrillMenuItemModel.Width] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.GrillMenuItemModelWQuantity] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ApplicationCore.GrillMenuItemModelWQuantity.Quantity] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.GrillMenuModel] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ApplicationCore.GrillMenuModel.Items] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ApplicationCore.GrillMenuModel.Menu] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ApplicationCore.GrillMenuModel.Rounds] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.GrillModel] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:ApplicationCore.GrillModel.HEIGHT] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:ApplicationCore.GrillModel.WIDTH] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.GrillRoundModel] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ApplicationCore.GrillRoundModel.GrillRoundStrips] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ApplicationCore.GrillRoundModel.Number] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.GrillRoundStripModel] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ApplicationCore.GrillRoundStripModel.GrillMenuItems] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.GrillSettings] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ApplicationCore.GrillSettings.BaseURL] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:ApplicationCore.GrillSettings.IsDev] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:ApplicationCore.GrillSettings.SECTION] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.HttpClientHelper] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.IAsyncOnlyGetRepository`1] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.IAsyncOnlyGetRepository`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.IAsyncOnlyGetRepository`1.GetAllAsync] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.IAsyncOnlyGetRepository`1.GetAllAsync] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.IAsyncRoundGenerator`2] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.IAsyncRoundGenerator`2] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.IAsyncRoundGenerator`2] Missing &lt;typeparam name=&quot;U&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.IAsyncRoundGenerator`2.GenerateRounds(`0)] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.IAsyncRoundGenerator`2.GenerateRounds(`0)] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.IAsyncRoundGenerator`2.GenerateRounds(`0)] Missing &lt;param name=&quot;menu&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.IEnumerableExtensions] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.IEnumerableExtensions.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.IEnumerableExtensions.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.IEnumerableExtensions.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:ApplicationCore.IEnumerableExtensions.IsNullOrEmpty``1(System.Collections.Generic.IEnumerable{``0})] Missing &lt;param name=&quot;enumerable&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:ApplicationCore.RoundGeneratorService] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:FunctionalTests] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:FunctionalTests.GrillMasterFunctionalTests] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:FunctionalTests.GrillMasterFunctionalTests.GenerateDataFromRoundGeneratorService] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:FunctionalTests.GrillMasterFunctionalTests.GenerateDataFromRoundGeneratorService] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:FunctionalTests.GrillMasterFunctionalTests.GenerateDataFromRoundGeneratorServiceWLimitValues] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:FunctionalTests.GrillMasterFunctionalTests.GenerateDataFromRoundGeneratorServiceWLimitValues] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:FunctionalTests.GrillMasterFunctionalTests.GenerateDataFromRoundGeneratorServiceWRandomData] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:FunctionalTests.GrillMasterFunctionalTests.GenerateDataFromRoundGeneratorServiceWRandomData] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:FunctionalTests.GrillMasterFunctionalTests.MapDataFromMockedMenus] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:FunctionalTests.GrillMasterFunctionalTests.RequestDataFromMenuRequestService] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:FunctionalTests.GrillMasterFunctionalTests.RequestDataFromMenuRequestService] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:GrillMaster] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:GrillMaster.GrillProfile] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.AllowNullCollections&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.AllowNullDestinationValues&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ConstructorMappingEnabled&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.DefaultMemberConfig&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.DestinationMemberNamingConvention&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.EnableNullPropagationForQueryMapping&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ProfileName&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ShouldMapField&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ShouldMapMethod&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ShouldMapProperty&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ShouldUseConstructor&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.SourceMemberNamingConvention&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ValueTransformers&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.AddGlobalIgnore(System.String)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.AddMemberConfiguration&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.ClearPrefixes&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.CreateMap(System.Type,System.Type)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.CreateMap(System.Type,System.Type,AutoMapper.MemberList)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.CreateMap``2&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.CreateMap``2(AutoMapper.MemberList)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.DisableConstructorMapping&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.ForAllMaps(System.Action{AutoMapper.TypeMap,AutoMapper.IMappingExpression})&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.ForAllPropertyMaps(System.Func{AutoMapper.PropertyMap,System.Boolean},System.Action{AutoMapper.PropertyMap,AutoMapper.IMemberConfigurationExpression})&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.IncludeSourceExtensionMethods(System.Type)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.RecognizeAlias(System.String,System.String)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.RecognizeDestinationPostfixes(System.String[])&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.RecognizeDestinationPrefixes(System.String[])&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.RecognizePostfixes(System.String[])&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.RecognizePrefixes(System.String[])&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.ReplaceMemberName(System.String,System.String)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.AddGlobalIgnore(System.String)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.AddMemberConfiguration&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.ClearPrefixes&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.CreateMap(System.Type,System.Type)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.CreateMap(System.Type,System.Type,AutoMapper.MemberList)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.CreateMap``2&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.CreateMap``2(AutoMapper.MemberList)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.DisableConstructorMapping&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.ForAllMaps(System.Action{AutoMapper.TypeMap,AutoMapper.IMappingExpression})&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.ForAllPropertyMaps(System.Func{AutoMapper.PropertyMap,System.Boolean},System.Action{AutoMapper.PropertyMap,AutoMapper.IMemberConfigurationExpression})&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.IncludeSourceExtensionMethods(System.Type)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.RecognizeAlias(System.String,System.String)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.RecognizeDestinationPostfixes(System.String[])&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.RecognizeDestinationPrefixes(System.String[])&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.RecognizePostfixes(System.String[])&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.RecognizePrefixes(System.String[])&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;M:AutoMapper.Profile.ReplaceMemberName(System.String,System.String)&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Methods.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.AllowNullCollections&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.AllowNullDestinationValues&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ConstructorMappingEnabled&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.DefaultMemberConfig&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.DestinationMemberNamingConvention&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.EnableNullPropagationForQueryMapping&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ProfileName&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ShouldMapField&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ShouldMapMethod&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ShouldMapProperty&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ShouldUseConstructor&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.SourceMemberNamingConvention&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;P:AutoMapper.Profile.ValueTransformers&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [Properties.T:GrillMaster.GrillProfile] Unknown reference link target &#39;T:AutoMapper.Profile&#39;. [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:GrillMaster.Program] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GrillMaster.Program.Main(System.String[])] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GrillMaster.Program.Main(System.String[])] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:GrillMaster.Program.Main(System.String[])] Missing &lt;param name=&quot;args&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Infrastructure] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Infrastructure.BaseApiService`1] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Infrastructure.BaseApiService`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Infrastructure.BaseApiService`1.#ctor(System.Net.Http.IHttpClientFactory)] Missing &lt;param name=&quot;clientFactory&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Infrastructure.BaseApiService`1.GetAllAsync] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Infrastructure.BaseApiService`1.GetAllAsync] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Infrastructure.BaseApiService`1.RouteName] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Infrastructure.BaseGrillMenuObject] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Infrastructure.BaseGrillMenuObject.Guid] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Infrastructure.BaseGrillMenuObject.Id] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Infrastructure.GrillMenu] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Infrastructure.GrillMenu.Items] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Infrastructure.GrillMenu.Menu] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Infrastructure.GrillMenuItem] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Infrastructure.GrillMenuItem.Duration] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Infrastructure.GrillMenuItem.Length] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Infrastructure.GrillMenuItem.Name] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Infrastructure.GrillMenuItem.Quantity] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Infrastructure.GrillMenuItem.Width] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Infrastructure.GrillMenuMockHelper] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Infrastructure.GrillMenuMockHelper.MockMenus] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Infrastructure.GrillMenuMockHelper.MockMenus] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Infrastructure.GrillMenuRequestService] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Infrastructure.GrillMenuRequestService.#ctor(System.Net.Http.IHttpClientFactory)] Missing &lt;param name=&quot;clientFactory&quot;/&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Infrastructure.GrillMenuRequestService.RouteName] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Infrastructure.IGrillMenuRequestService] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:UnitTests] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:UnitTests.GrillMasterUnitTests] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:UnitTests.GrillMasterUnitTests.GenerateDataFromRoundGeneratorService] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:UnitTests.GrillMasterUnitTests.GenerateDataFromRoundGeneratorService] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:UnitTests.GrillMasterUnitTests.MapDataFromMockedMenus] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:UnitTests.GrillMasterUnitTests.RequestDataFromMenuRequestService] Missing &lt;summary&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:UnitTests.GrillMasterUnitTests.RequestDataFromMenuRequestService] Missing &lt;returns&gt; documentation [C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj]
+  Processed 134 topic(s)
+  219 warning(s)
+  CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 5 of 15.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
+Compilaci&#162;n del proyecto terminada &quot;C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\BuildTopics.proj&quot; (destinos predeterminados).
+    Last step completed in 00:00:09,3785
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0030
+</buildStep>
+<buildStep step="ExtractingHtmlInfo">
+Extracting HTML info for HTML Help 1 and/or website...
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2021.4.9.0
+Copyright &#184; 2006-2021, Eric Woodruff, All Rights Reserved
+E-Mail: Eric@EWoodruff.us
+
+Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
+
+Processing website files in C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website
+Processed 134 HTML files
+Sorting keywords and generating See Also indices
+Saving website keyword index to C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\WebKI.xml
+Saving website table of contents to C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\WebTOC.xml
+    Last step completed in 00:00:00,4360
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertCaution.png -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\AlertCaution.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertNote.png -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\AlertNote.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\AlertSecurity.png -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\AlertSecurity.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CFW.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\CFW.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\CodeExample.png -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\CodeExample.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\favicon.ico -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privclass.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\privclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privdelegate.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\privdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privenumeration.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\privenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privevent.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\privevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privextension.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\privextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privfield.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\privfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privinterface.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\privinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privmethod.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\privmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privproperty.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\privproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\privstructure.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\privstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protclass.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\protclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protdelegate.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\protdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protenumeration.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\protenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protevent.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\protevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protextension.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\protextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protfield.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\protfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protinterface.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\protinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protmethod.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\protmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protoperator.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\protoperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protproperty.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\protproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\protstructure.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\protstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubclass.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\pubclass.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubdelegate.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\pubdelegate.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubenumeration.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\pubenumeration.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubevent.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\pubevent.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubextension.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\pubextension.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubfield.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\pubfield.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubinterface.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\pubinterface.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubmethod.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\pubmethod.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\puboperator.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\puboperator.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubproperty.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\pubproperty.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\pubstructure.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\pubstructure.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionCollapsed.png -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\SectionCollapsed.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\SectionExpanded.png -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\SectionExpanded.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\slMobile.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\slMobile.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\static.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\static.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\icons\xna.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\xna.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\scripts\branding.js -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\scripts\branding.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-cs-CZ.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-cs-CZ.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-de-DE.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-de-DE.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-en-US.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-en-US.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-es-ES.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-es-ES.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-fr-FR.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-fr-FR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Help1.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-Help1.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-HelpViewer.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-HelpViewer.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-it-IT.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-it-IT.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ja-JP.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ko-KR.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pl-PL.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-pl-PL.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-pt-BR.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-pt-BR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-ru-RU.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-ru-RU.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-tr-TR.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-tr-TR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-Website.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-Website.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-CN.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding-zh-TW.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding-zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\styles\branding.css -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\styles\branding.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\index.html -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\search.html -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.aspx -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.inc.php -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\SearchHelp.php -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\Web.Config -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\Web.Config
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\GeneralError.htm -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\html\GeneralError.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\html\PageNotFound.htm -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\html\PageNotFound.htm
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\Search.png -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\Search.png
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocClose.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\TocClose.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocCollapsed.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\TocCollapsed.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocExpanded.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\TocExpanded.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\icons\TocOpen.gif
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\scripts\branding-Website.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; C:\Users\RafaelAlamanac\Desktop\GrillMaster\GrillMaster\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+    Last step completed in 00:00:00,1420
+</buildStep>
+<buildStep step="GenerateHelpFormatTableOfContents">
+Generating website table of contents file...
+    Last step completed in 00:00:00,0030
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+<plugIn name="Lightweight Website Style" behavior="After" priority="1000">
+Adding lightweight search and TOC elements to each topic...
+</plugIn>    Last step completed in 00:00:01,2694
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 293 files for the website content
+    Last step completed in 00:00:01,2121
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,0980
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 12/07/2021 11:39:34.  Total time: 00:00:21,8509
+
+</buildStep>
+</shfbBuild>

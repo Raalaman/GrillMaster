@@ -1,0 +1,17 @@
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\bin\Debug\net5.0\ApplicationCore.dll
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\obj\Debug\net5.0\Infrastructure.csprojAssemblyReference.cache
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\bin\Debug\net5.0\ApplicationCore.pdb
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\bin\Debug\net5.0\Infrastructure.xml
+C:\Users\RafaelAlamanac\Desktop\GrillMaster\Infrastructure\bin\Debug\net5.0\ApplicationCore.xml

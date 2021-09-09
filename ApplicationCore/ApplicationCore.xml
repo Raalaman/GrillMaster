@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApplicationCore</name>
+    </assembly>
+    <members>
+        <member name="M:ApplicationCore.CoordinateModel.MoveForWard(ApplicationCore.MartianRobotGridModel)">
+            <summary>
+            Mueve el robot, en caso de caerse del mapa devuelve false
+            </summary>
+            <param name="model">el mapa</param>
+            <returns>True si se ha movido con éxito, false en caso contrario</returns>
+        </member>
+        <member name="P:ApplicationCore.MartianRobotGridModel.CoordinatesFinishedRobots">
+            <summary>
+            TODO: gestionar las colisiones entre robots
+            </summary>
+        </member>
+    </members>
+</doc>
